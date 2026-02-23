@@ -1,0 +1,3 @@
+[submodule "mealpy"]
+	path = mealpy
+	url = https://github.com/thieu1995/mealpy.git

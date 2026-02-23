@@ -1,0 +1,385 @@
+Task 1 (one_way):
+  drive 0: (-5.0, -4.0)->(-5.0, -8.0) dist=4.00m t=13.33s E=1.100Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=15.33s, E=1.600Wh
+
+Task 2 (one_way):
+  drive 0: (3.0, 1.0)->(3.0, -4.0) dist=5.00m t=16.67s E=1.375Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=18.67s, E=1.875Wh
+
+Task 3 (one_way):
+  drive 0: (4.8, 1.0)->(5.0, -4.0) dist=5.00m t=16.68s E=1.376Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=18.68s, E=1.876Wh
+
+Task 4 (one_way):
+  drive 0: (-5.0, -3.0)->(1.0, -9.0) dist=8.49m t=28.28s E=2.333Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=30.28s, E=2.833Wh
+
+Task 5 (one_way):
+  drive 0: (-5.0, -1.0)->(0.0, -7.0) dist=7.81m t=26.03s E=2.148Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=28.03s, E=2.648Wh
+
+Task 6 (one_way):
+  drive 0: (-5.0, 5.0)->(-5.0, 7.0) dist=2.00m t=6.67s E=0.550Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=8.67s, E=1.050Wh
+
+Task 7 (one_way):
+  drive 0: (-5.0, 4.0)->(1.0, 5.0) dist=6.08m t=20.28s E=1.673Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=22.28s, E=2.173Wh
+
+Task 8 (one_way):
+  drive 0: (-5.0, 0.0)->(1.2, 6.0) dist=8.63m t=28.76s E=2.373Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=30.76s, E=2.873Wh
+
+Task 9 (one_way):
+  drive 0: (3.0, -5.0)->(3.0, -9.0) dist=4.00m t=13.33s E=1.100Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=15.33s, E=1.600Wh
+
+Task 10 (one_way):
+  drive 0: (5.0, -5.0)->(5.0, -8.8) dist=3.80m t=12.67s E=1.045Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=14.67s, E=1.545Wh
+
+Task 11 (one_way):
+  drive 0: (-3.0, -7.0)->(-3.0, 1.0) dist=8.00m t=26.67s E=2.200Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=28.67s, E=2.700Wh
+
+Task 12 (one_way):
+  drive 0: (-3.0, 7.0)->(-1.5, -0.5) dist=7.65m t=25.50s E=2.103Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=27.50s, E=2.603Wh
+
+Task 13 (one_way):
+  drive 0: (-5.0, 1.0)->(-5.0, 5.0) dist=4.00m t=13.33s E=1.100Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=15.33s, E=1.600Wh
+
+Task 14 (one_way):
+  drive 0: (-3.0, 1.0)->(-3.0, 4.0) dist=3.00m t=10.00s E=0.825Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=12.00s, E=1.325Wh
+
+Task 15 (one_way):
+  drive 0: (0.0, 1.0)->(0.0, 4.0) dist=3.00m t=10.00s E=0.825Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=12.00s, E=1.325Wh
+
+Task 16 (one_way):
+  drive 0: (2.0, 1.0)->(1.0, 4.0) dist=3.16m t=10.54s E=0.870Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=12.54s, E=1.370Wh
+
+Task 17 (one_way):
+  drive 0: (1.5, 0.0)->(0.0, 5.0) dist=5.22m t=17.40s E=1.436Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=19.40s, E=1.936Wh
+
+Task 18 (one_way):
+  drive 0: (1.5, -1.0)->(1.5, -4.0) dist=3.00m t=10.00s E=0.825Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=12.00s, E=1.325Wh
+
+Task 19 (one_way):
+  drive 0: (1.5, -5.0)->(1.5, -9.0) dist=4.00m t=13.33s E=1.100Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=15.33s, E=1.600Wh
+
+Task 20 (one_way):
+  drive 0: (0.0, -6.0)->(3.0, -6.0) dist=3.00m t=10.00s E=0.825Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=12.00s, E=1.325Wh
+
+Task 21 (round_trip):
+  drive 0: (-0.35, -3.95)->(0.45, 5.35) dist=9.33m t=31.11s E=2.567Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (0.45, 5.35)->(-0.35, -3.95) dist=9.33m t=37.34s E=4.364Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=74.45s, E=8.431Wh
+
+Task 22 (round_trip):
+  drive 0: (-3.75, 8.55)->(-0.3, -0.85) dist=10.01m t=33.38s E=2.754Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-0.3, -0.85)->(-3.75, 8.55) dist=10.01m t=40.05s E=4.681Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=79.43s, E=8.935Wh
+
+Task 23 (round_trip):
+  drive 0: (-3.55, 6.0)->(-5.75, 8.6) dist=3.41m t=11.35s E=0.937Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-5.75, 8.6)->(-3.55, 6.0) dist=3.41m t=13.62s E=1.592Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=30.98s, E=4.029Wh
+
+Task 24 (round_trip):
+  drive 0: (3.9, -8.2)->(-1.45, -1.0) dist=8.97m t=29.90s E=2.467Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-1.45, -1.0)->(3.9, -8.2) dist=8.97m t=35.88s E=4.194Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=71.78s, E=8.160Wh
+
+Task 25 (round_trip):
+  drive 0: (-2.95, -9.75)->(-1.9, -3.7) dist=6.14m t=20.47s E=1.689Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-1.9, -3.7)->(-2.95, -9.75) dist=6.14m t=24.56s E=2.871Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=51.03s, E=6.059Wh
+
+Task 26 (round_trip):
+  drive 0: (-3.65, 6.5)->(-2.75, -0.8) dist=7.36m t=24.52s E=2.023Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-2.75, -0.8)->(-3.65, 6.5) dist=7.36m t=29.42s E=3.439Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=59.94s, E=6.961Wh
+
+Task 27 (round_trip):
+  drive 0: (0.55, -7.85)->(0.7, -5.1) dist=2.75m t=9.18s E=0.757Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (0.7, -5.1)->(0.55, -7.85) dist=2.75m t=11.02s E=1.288Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=26.20s, E=3.545Wh
+
+Task 28 (round_trip):
+  drive 0: (1.55, -6.15)->(-3.95, -5.6) dist=5.53m t=18.42s E=1.520Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-3.95, -5.6)->(1.55, -6.15) dist=5.53m t=22.11s E=2.584Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=46.53s, E=5.604Wh
+
+Task 29 (round_trip):
+  drive 0: (1.3, 7.15)->(-1.5, -1.35) dist=8.95m t=29.83s E=2.461Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-1.5, -1.35)->(1.3, 7.15) dist=8.95m t=35.80s E=4.184Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=71.63s, E=8.145Wh
+
+Task 30 (round_trip):
+  drive 0: (-0.3, -3.9)->(0.05, 2.55) dist=6.46m t=21.53s E=1.776Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (0.05, 2.55)->(-0.3, -3.9) dist=6.46m t=25.84s E=3.020Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=53.37s, E=6.296Wh
+
+Task 31 (round_trip):
+  drive 0: (-3.55, -0.3)->(1.25, 2.0) dist=5.32m t=17.74s E=1.464Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (1.25, 2.0)->(-3.55, -0.3) dist=5.32m t=21.29s E=2.488Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=45.03s, E=5.452Wh
+
+Task 32 (round_trip):
+  drive 0: (0.05, -7.45)->(-5.6, 5.2) dist=13.85m t=46.18s E=3.810Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-5.6, 5.2)->(0.05, -7.45) dist=13.85m t=55.42s E=6.477Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=107.60s, E=11.787Wh
+
+Task 33 (round_trip):
+  drive 0: (-3.9, -6.5)->(-3.4, 5.85) dist=12.36m t=41.20s E=3.399Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-3.4, 5.85)->(-3.9, -6.5) dist=12.36m t=49.44s E=5.778Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=96.64s, E=10.677Wh
+
+Task 34 (round_trip):
+  drive 0: (-3.4, -8.6)->(-4.9, 0.35) dist=9.07m t=30.25s E=2.496Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-4.9, 0.35)->(-3.4, -8.6) dist=9.07m t=36.30s E=4.242Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=72.55s, E=8.238Wh
+
+Task 35 (round_trip):
+  drive 0: (3.7, -4.6)->(3.5, 1.05) dist=5.65m t=18.85s E=1.555Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (3.5, 1.05)->(3.7, -4.6) dist=5.65m t=22.61s E=2.643Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +8.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=47.46s, E=5.698Wh
+
+Task 36 (via_point):
+  drive 0: (-2.95, -2.1)->(-2.95, -2.1) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-2.95, -2.1)->(-4.35, 8.85) dist=11.04m t=44.16s E=5.161Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-4.35, 8.85)->(-5.4, 6.9) dist=2.21m t=8.86s E=0.914Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=63.02s, E=8.574Wh
+
+Task 37 (via_point):
+  drive 0: (-5.85, -6.6)->(-5.85, -6.6) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-5.85, -6.6)->(-0.2, -3.55) dist=6.42m t=25.68s E=3.002Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-0.2, -3.55)->(0.95, 2.65) dist=6.31m t=25.22s E=2.601Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=60.91s, E=8.103Wh
+
+Task 38 (via_point):
+  drive 0: (-3.9, 8.5)->(-3.9, 8.5) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-3.9, 8.5)->(-6.2, 1.35) dist=7.51m t=30.04s E=3.511Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-6.2, 1.35)->(-4.8, 0.65) dist=1.57m t=6.26s E=0.646Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=46.30s, E=6.657Wh
+
+Task 39 (via_point):
+  drive 0: (5.6, -6.3)->(5.6, -6.3) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (5.6, -6.3)->(-2.15, -0.6) dist=9.62m t=38.48s E=4.498Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-2.15, -0.6)->(0.6, 1.55) dist=3.49m t=13.96s E=1.440Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=62.44s, E=8.438Wh
+
+Task 40 (via_point):
+  drive 0: (1.85, -5.9)->(1.85, -5.9) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (1.85, -5.9)->(0.75, 3.35) dist=9.32m t=37.26s E=4.355Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (0.75, 3.35)->(-4.05, 8.7) dist=7.19m t=28.75s E=2.965Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=76.01s, E=9.820Wh
+
+Task 41 (via_point):
+  drive 0: (-3.45, 3.8)->(-3.45, 3.8) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-3.45, 3.8)->(2.25, 1.5) dist=6.15m t=24.59s E=2.874Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (2.25, 1.5)->(1.35, 2.95) dist=1.71m t=6.83s E=0.704Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=41.41s, E=6.078Wh
+
+Task 42 (via_point):
+  drive 0: (1.85, -3.55)->(1.85, -3.55) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (1.85, -3.55)->(-1.65, -0.4) dist=4.71m t=18.84s E=2.201Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-1.65, -0.4)->(-2.65, 0.25) dist=1.19m t=4.77s E=0.492Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=33.61s, E=5.193Wh
+
+Task 43 (via_point):
+  drive 0: (-1.8, -5.1)->(-1.8, -5.1) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-1.8, -5.1)->(-3.95, -5.45) dist=2.18m t=8.71s E=1.018Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-3.95, -5.45)->(1.55, -5.9) dist=5.52m t=22.07s E=2.276Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=40.79s, E=5.795Wh
+
+Task 44 (via_point):
+  drive 0: (-0.7, -3.05)->(-0.7, -3.05) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-0.7, -3.05)->(-3.3, -9.35) dist=6.82m t=27.26s E=3.186Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-3.3, -9.35)->(-6.0, -2.85) dist=7.04m t=28.15s E=2.903Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=65.42s, E=8.590Wh
+
+Task 45 (via_point):
+  drive 0: (-3.85, 6.9)->(-3.85, 6.9) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-3.85, 6.9)->(-3.05, -2.15) dist=9.09m t=36.34s E=4.247Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-3.05, -2.15)->(-1.55, 0.25) dist=2.83m t=11.32s E=1.167Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=57.66s, E=7.915Wh
+
+Task 46 (via_point):
+  drive 0: (-4.6, -3.75)->(-4.6, -3.75) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-4.6, -3.75)->(-5.6, 8.8) dist=12.59m t=50.36s E=5.886Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-5.6, 8.8)->(-4.5, -0.15) dist=9.02m t=36.07s E=3.720Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=96.43s, E=12.105Wh
+
+Task 47 (via_point):
+  drive 0: (1.55, -2.45)->(1.55, -2.45) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (1.55, -2.45)->(-0.05, -3.8) dist=2.09m t=8.37s E=0.979Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-0.05, -3.8)->(-6.05, -4.35) dist=6.03m t=24.10s E=2.485Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=42.47s, E=5.964Wh
+
+Task 48 (via_point):
+  drive 0: (-3.7, 8.75)->(-3.7, 8.75) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-3.7, 8.75)->(0.1, 5.25) dist=5.17m t=20.66s E=2.415Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (0.1, 5.25)->(0.5, -2.8) dist=8.06m t=32.24s E=3.325Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=62.90s, E=8.240Wh
+
+Task 49 (via_point):
+  drive 0: (-0.4, -6.6)->(-0.4, -6.6) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-0.4, -6.6)->(-3.75, -1.7) dist=5.94m t=23.74s E=2.775Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-3.75, -1.7)->(1.85, -7.85) dist=8.32m t=33.27s E=3.431Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=67.01s, E=8.706Wh
+
+Task 50 (via_point):
+  drive 0: (-5.7, -4.55)->(-5.7, -4.55) dist=0.00m t=0.00s E=0.000Wh inertia=0.00004Wh (carried=0.00kg)
+  pick 0: +8.00kg, t+2.0s, E+0.5Wh
+  drive 1: (-5.7, -4.55)->(-2.45, -0.8) dist=4.96m t=19.85s E=2.320Wh inertia=0.00000Wh (carried=8.00kg)
+  pick 1: +4.00kg, t+2.0s, E+0.5Wh
+  drop 1: -8.00kg, t+2.0s, E+0.5Wh
+  drive 2: (-2.45, -0.8)->(-3.35, -7.0) dist=6.26m t=25.06s E=2.584Wh inertia=0.00000Wh (carried=4.00kg)
+  pick 2: +0.00kg, t+2.0s, E+0.5Wh
+  drop 2: -4.00kg, t+2.0s, E+0.5Wh
+  TOTAL: t=54.91s, E=7.404Wh
+

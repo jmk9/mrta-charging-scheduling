@@ -1,0 +1,201 @@
+##
+## Scheduler robot configuration
+##
+## Exactly ONE of the blocks below should be active at a time.
+## Comment out (#) all other blocks so rclcpp only sees a single `scheduler` node config.
+##
+## Example:
+##  - If you want 4 robots, keep only the "4 robots" block active.
+##  - If you want 10 robots, comment out the 4-robot block and uncomment the "10 robots" block.
+
+
+########################
+## 3 robots ##
+########################
+
+# scheduler:
+#   ros__parameters:
+#     robot_ids:
+#       - tb1
+#       - tb2
+#       - tb3
+
+#     robot_cap_wh: |
+#       tb1: 40.0
+#       tb2: 60.0
+#       tb3: 40.0
+
+
+########################
+## 4 robots ##
+########################
+
+scheduler:
+  ros__parameters:
+    robot_ids:
+      - tb1
+      - tb2
+      - tb3
+      - tb4
+
+    robot_cap_wh: |
+      tb1: 40.0
+      tb2: 60.0
+      tb3: 40.0
+      tb4: 60.0
+
+
+########################
+## 5 robots ##
+########################
+
+# scheduler:
+#   ros__parameters:
+#     robot_ids:
+#       - tb1
+#       - tb2
+#       - tb3
+#       - tb4
+#       - tb5
+
+#     robot_cap_wh: |
+#       tb1: 40.0
+#       tb2: 60.0
+#       tb3: 40.0
+#       tb4: 60.0
+#       tb5: 40.0
+
+
+########################
+## 6 robots ##
+########################
+
+# scheduler:
+#   ros__parameters:
+#     robot_ids:
+#       - tb1
+#       - tb2
+#       - tb3
+#       - tb4
+#       - tb5
+#       - tb6
+
+#     robot_cap_wh: |
+#       tb1: 40.0
+#       tb2: 60.0
+#       tb3: 40.0
+#       tb4: 60.0
+#       tb5: 40.0
+#       tb6: 60.0
+
+########################
+## 7 robots ##
+########################
+
+# scheduler:
+#   ros__parameters:
+#     robot_ids:
+#       - tb1
+#       - tb2
+#       - tb3
+#       - tb4
+#       - tb5
+#       - tb6
+#       - tb7
+
+#     robot_cap_wh: |
+#       tb1: 40.0
+#       tb2: 60.0
+#       tb3: 40.0
+#       tb4: 60.0
+#       tb5: 40.0
+#       tb6: 60.0
+#       tb7: 40.0
+
+
+########################
+## 8 robots ##
+########################
+
+# scheduler:
+#   ros__parameters:
+#     robot_ids:
+#       - tb1
+#       - tb2
+#       - tb3
+#       - tb4
+#       - tb5
+#       - tb6
+#       - tb7
+#       - tb8
+
+#     robot_cap_wh: |
+#       tb1: 40.0
+#       tb2: 60.0
+#       tb3: 40.0
+#       tb4: 60.0
+#       tb5: 40.0
+#       tb6: 60.0
+#       tb7: 40.0
+#       tb8: 60.0
+
+
+########################
+## 9 robots ##
+########################
+
+# scheduler:
+#   ros__parameters:
+#     robot_ids:
+#       - tb1
+#       - tb2
+#       - tb3
+#       - tb4
+#       - tb5
+#       - tb6
+#       - tb7
+#       - tb8
+#       - tb9
+#
+#     robot_cap_wh: |
+#       tb1: 40.0
+#       tb2: 60.0
+#       tb3: 40.0
+#       tb4: 60.0
+#       tb5: 40.0
+#       tb6: 60.0
+#       tb7: 40.0
+#       tb8: 60.0
+#       tb9: 40.0
+
+
+########################
+## 10 robots##
+########################
+
+# scheduler:
+#   ros__parameters:
+#     robot_ids:
+#       - tb1
+#       - tb2
+#       - tb3
+#       - tb4
+#       - tb5
+#       - tb6
+#       - tb7
+#       - tb8
+#       - tb9
+#       - tb10
+
+#     robot_cap_wh: |
+#       tb1: 40.0
+#       tb2: 60.0
+#       tb3: 40.0
+#       tb4: 60.0
+#       tb5: 40.0
+#       tb6: 60.0
+#       tb7: 40.0
+#       tb8: 60.0
+#       tb9: 40.0
+#       tb10: 60.0
+
