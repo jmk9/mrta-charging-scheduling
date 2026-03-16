@@ -1,18 +1,31 @@
-# Pull
-docker pull <dockerhub_user>/<image_name>:<tag>
+# Joint-MRTA-Charging: Integrated Task Allocation and Charging Scheduling
 
-# Run container in background (keep it alive)
-xhost +local:docker
-docker run -d --name mrta \
-  --net=host \
-  --ipc=host \
-  -e DISPLAY=$DISPLAY \
-  -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
-  jmk9/mrta-charging-scheduler:humble \
+[![ROS 2](https://img.shields.io/badge/ROS-2_Humble-blue)](https://docs.ros.org/en/humble/index.html)
+[![Gazebo](https://img.shields.io/badge/Simulation-Gazebo_11-orange)](https://gazebosim.org/)
+[![Docker](https://img.shields.io/badge/Docker-jmk9%2Fmrta--charging--scheduler-blue?logo=docker)](https://hub.docker.com/r/jmk9/mrta-charging-scheduler)
 
-# Start simulation (Gazebo + Nav2) inside container
-  "ros2 launch turtlebot3_multi_robot gazebo_multi_nav2_world_waypoint.launch.py enable_drive:=True headless:=false num_robots:=4"
+This repository contains the implementation of an integrated framework for **Multi-Robot Task Allocation (MRTA)** and **Charging Scheduling**. By jointly optimizing task sequences and charging maneuvers, this framework minimizes makespan and prevents dock contention in shared infrastructure environments.
 
-# In another terminal, run the scheduler (same container)
-# (Copy-paste this line into a second terminal)
-  "ros2 run scheduler scheduler_node_1stage_RIME --ros-args --log-level scheduler_node:=debug -p charge:=optimized --params-file /root/ros2_ws/install/scheduler/share/scheduler/config/scheduler_params.yaml"
+## 📺 Demo Video
+Check out the simulation demo on YouTube:
+[![MRTA Simulation Demo](https://img.youtube.com/vi/TR0gkmdvi8w/0.jpg)](https://youtu.be/TR0gkmdvi8w)
+
+## 📌 Key Features
+- ■ **Jointly optimizes** task assignment, sequencing, and charging under shared docks.
+- ■ **Models dock occupancy** and charge-wait to reduce contention-driven delays.
+- ■ **Validated in ROS 2 and Gazebo** with execution-level navigation and charging effects.
+- ■ **Achieves 7.6% makespan reduction** and 0.8% lower fleet-wide energy consumption compared to heuristic baselines.
+
+## 🏗 System Architecture
+![Architecture Diagram](./images/architecture.png) 
+*(Note: [IMAGE PLACEHOLDER] - Upload your architecture diagram to /images/architecture.png)*
+
+## 💻 Environment & Installation
+- **OS:** Ubuntu 24.04
+- **Middleware:** ROS 2 Humble
+- **Docker Image:** `jmk9/mrta-charging-scheduler`
+
+You can run the environment directly using Docker:
+```bash
+docker pull jmk9/mrta-charging-scheduler
+docker run -it --rm --net=host --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" jmk9/mrta-charging-scheduler
