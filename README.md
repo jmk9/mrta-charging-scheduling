@@ -85,9 +85,9 @@ The 50 tasks consisted of 20 one-way tasks, 15 round-trip tasks, and 15 via-poin
 
 | Policy | Total Travel (s) | Total Charge (s) | Total Wait (s) | Total Makespan (s) |
 |---|---:|---:|---:|---:|
-| Threshold | 844.68 | 2434.00 | 947.33 | 6604.22 |
+| Threshold | **845.68** | 2434.00 | 947.33 | 6604.22 |
 | Feasibility | 896.25 | 2607.26 | 1619.77 | 7500.50 |
-| **Optimized (RIME)** | **855.88** | **1575.03** | **57.20** | **4903.10** |
+| **Optimized (RIME)** | 855.88 | **1575.03** | **57.20** | **4903.10** |
 
 The optimized policy achieved the lowest total makespan and significantly reduced charger waiting time compared with the threshold-based and feasibility-based baselines.
 
