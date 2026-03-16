@@ -66,11 +66,11 @@ The following table summarizes the performance of the proposed Joint Optimizatio
 
 ### Table 6. Compact Summary
 
-| Policy | Total Length | Total Travel (s) | Total Charge (s) | Total Wait (s) | Total Makespan (s) |
-|---|---:|---:|---:|---:|---:|
-| Threshold | 56 | 844.68 | 2434.00 | 947.33 | 6604.22 |
-| Feasibility | 56 | 896.25 | 2607.26 | 1619.77 | 7500.50 |
-| **Optimized (RIME)** | **56** | **855.88** | **1575.03** | **57.20** | **4903.10** |
+| Policy | Total Travel (s) | Total Charge (s) | Total Wait (s) | Total Makespan (s) |
+|---|---:|---:|---:|---:|
+| Threshold | 844.68 | 2434.00 | 947.33 | 6604.22 |
+| Feasibility | 896.25 | 2607.26 | 1619.77 | 7500.50 |
+| **Optimized (RIME)** | **855.88** | **1575.03** | **57.20** | **4903.10** |
 
 ### Schedule Timeline Comparison
 
