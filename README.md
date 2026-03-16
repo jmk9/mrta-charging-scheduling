@@ -7,8 +7,8 @@
 This repository contains the implementation of an integrated framework for **Multi-Robot Task Allocation (MRTA)** and **Charging Scheduling**. By jointly optimizing task sequences and charging maneuvers, this framework minimizes makespan and prevents dock contention in shared infrastructure environments.
 
 ## 📺 Demo Video
+Check out the simulation demo on YouTube:
 <div align="center">
-  <p>Check out the simulation demo on YouTube:</p>
   <a href="https://youtu.be/TR0gkmdvi8w">
     <img src="https://img.youtube.com/vi/TR0gkmdvi8w/0.jpg" alt="MRTA Simulation Demo" width="600">
   </a>
