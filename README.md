@@ -1,4 +1,4 @@
-# Joint-MRTA-Charging: Integrated Task Allocation and Charging Scheduling
+# An integrated framework for joint optimization of task allocation and charging scheduling in multi-robot systems
 
 [![ROS 2](https://img.shields.io/badge/ROS-2_Humble-blue)](https://docs.ros.org/en/humble/index.html)
 [![Gazebo](https://img.shields.io/badge/Simulation-Gazebo-orange)](https://gazebosim.org/)
