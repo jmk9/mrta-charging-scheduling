@@ -32,4 +32,4 @@ Check out the simulation demo on YouTube:
 You can run the environment directly using Docker:
 ```bash
 docker pull jmk9/mrta-charging-scheduler
-docker run -it --rm --net=host --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" jmk9/mrta-charging-scheduler
+docker run -it jmk9/mrta-charging-scheduler
