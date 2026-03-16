@@ -96,7 +96,7 @@ The optimized policy achieved the lowest total makespan and significantly reduce
 The figure below compares the scheduling timelines of the threshold-based, feasibility-based, and optimized charging policies.  
 The optimized policy proactively allocates charging events, which minimizes charger contention and reduces overall mission completion time.
 
-![Scheduling Timeline Comparison](./images/timeline_policy.png)
+![Scheduling Timeline Comparison](./figures/timeline_policy.png)
 
 ## 👥 Authors
 
