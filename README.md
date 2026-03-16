@@ -104,6 +104,6 @@ This repository is part of a collaborative research project on multi-robot task 
 
 - **Minkyu Jung** — first author
 - **Hyun Song** — second author
-- **Andrew Jaeyong Choi** — corresponding author
+- **Andrew Jaeyong Choi** — advisor
 
 
