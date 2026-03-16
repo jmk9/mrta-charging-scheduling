@@ -78,23 +78,32 @@ ros2 run scheduler scheduler_node_1stage_RIME \
   --params-file /root/ros2_ws/install/scheduler/share/scheduler/config/scheduler_params.yaml
 ```
 
-## 📊 Performance Analysis
-
-### Table 6. Compact Summary
+## 📊 Performance Summary
 
 Experimental setup: 4 robots, 50 tasks, and 2 chargers were used in this experiment.  
 The 50 tasks consisted of 20 one-way tasks, 15 round-trip tasks, and 15 via-point tasks.
 
-| Policy | Total Travel (s) | Total Charge (s) | Total Wait (s) | Total Makespan (s) |
-|---|---:|---:|---:|---:|
-| Threshold | 844.68 | 2434.00 | 947.33 | 6604.22 |
-| Feasibility | 896.25 | 2607.26 | 1619.77 | 7500.50 |
-| **Optimized (RIME)** | **855.88** | **1575.03** | **57.20** | **4903.10** |
+| Policy | Total Length | Total Travel (s) | Total Charge (s) | Total Wait (s) | Total Makespan (s) |
+|---|---:|---:|---:|---:|---:|
+| Threshold | 56 | 844.68 | 2434.00 | 947.33 | 6604.22 |
+| Feasibility | 56 | 896.25 | 2607.26 | 1619.77 | 7500.50 |
+| **Optimized (RIME)** | **56** | **855.88** | **1575.03** | **57.20** | **4903.10** |
 
-### Schedule Timeline Comparison
+The optimized policy achieved the lowest total makespan and significantly reduced charger waiting time compared with the threshold-based and feasibility-based baselines.
 
-The figure below illustrates the timeline comparison between Threshold-based, Feasibility-based, and our Optimized Joint Scheduling. Our approach proactively manages charging intervals to ensure zero wait time at the docks, leading to the fastest mission completion.
+## 🕒 Scheduling Timeline Comparison
 
-![Schedule Timeline Comparison](/figures/timeline_policy.png)
+The figure below compares the scheduling timelines of the threshold-based, feasibility-based, and optimized charging policies.  
+The optimized policy proactively allocates charging events, which minimizes charger contention and reduces overall mission completion time.
+
+![Scheduling Timeline Comparison](images/timeline_comparison.png)
+
+## 👥 Authors
+
+This repository is part of a collaborative research project on multi-robot task allocation and charging-aware scheduling.
+
+- **Minkyu Jung** — first author
+- **Hyun Song** — second author
+- **Andrew Jaeyong Choi** — corresponding author
 
 
