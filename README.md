@@ -21,8 +21,7 @@ Check out the simulation demo on YouTube:
 - ■ **Achieves 7.6% makespan reduction** and 0.8% lower fleet-wide energy consumption compared to heuristic baselines.
 
 ## 🏗 System Architecture
-![Architecture Diagram](./images/architecture.png) 
-*(Note: [IMAGE PLACEHOLDER] - Upload your architecture diagram to /images/architecture.png)*
+![Architecture Diagram](./figures/main.png)
 
 ## 💻 Environment & Installation
 - **OS:** Ubuntu 24.04
@@ -33,3 +32,48 @@ You can run the environment directly using Docker:
 ```bash
 docker pull jmk9/mrta-charging-scheduler
 docker run -it jmk9/mrta-charging-scheduler
+```
+
+## 🚀 Usage
+
+### 1. Launch Gazebo and Navigation Stack
+
+Execute the multi-robot world and navigation system:
+
+```bash
+ros2 launch turtlebot3_multi_robot gazebo_multi_nav2_world_waypoint.launch.py \
+  enable_drive:=True \
+  headless:=false \
+  num_robots:=4
+```
+
+### 2. Run Scheduler Node
+
+Run the optimization-based scheduler using the RIME algorithm:
+
+```bash
+ros2 run scheduler scheduler_node_1stage_RIME \
+  --ros-args --log-level scheduler_node:=debug \
+  -p charge:=optimized \
+  --params-file /root/ros2_ws/install/scheduler/share/scheduler/config/scheduler_params.yaml
+```
+
+## 📊 Performance Analysis
+
+### Comparative Analysis (Table 4)
+
+The following table summarizes the performance of the proposed Joint Optimization approach compared to standard heuristic baselines, based on the experimental results.
+
+| Method | # of Chg. | Chg. Time (s) | Wait Time (s) | Total Travel (m) | Energy (kJ) | Makespan (s) |
+|--------|----------:|--------------:|--------------:|-----------------:|------------:|-------------:|
+| Threshold-based | 1 | 1779.6 | 472.9 | 497.1 | 354.3 | 1026.3 |
+| Feasibility-based | 7 | 1121.2 | 211.8 | 483.7 | 349.5 | 995.8 |
+| **Optimized (Ours)** | **7** | **1146.9** | **0.0** | **488.9** | **343.5** | **948.3** |
+
+### Schedule Timeline Comparison
+
+The figure below illustrates the timeline comparison between Threshold-based, Feasibility-based, and our Optimized Joint Scheduling. Our approach proactively manages charging intervals to ensure zero wait time at the docks, leading to the fastest mission completion.
+
+![Schedule Timeline Comparison](/figures/timeline_policy.png)
+
+
