@@ -36,9 +36,29 @@ docker run -it jmk9/mrta-charging-scheduler
 
 ## 🚀 Usage
 
+Before running the project, make sure the required external dependencies are prepared in your ROS 2 workspace.
+
+### 0. Prepare External Dependencies
+
+This project additionally requires the following repositories:
+
+- [`mealpy`](https://github.com/thieu1995/mealpy) for meta-heuristic optimization
+- [`aws-robomaker-small-warehouse-world`](https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git) for the warehouse simulation map
+
+```bash
+cd ~/ros2_ws/src
+
+git clone https://github.com/thieu1995/mealpy.git
+git clone https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git
+
+cd ~/ros2_ws
+colcon build
+source install/setup.bash
+```
+
 ### 1. Launch Gazebo and Navigation Stack
 
-Execute the multi-robot world and navigation system:
+Execute the multi-robot warehouse world and navigation system:
 
 ```bash
 ros2 launch turtlebot3_multi_robot gazebo_multi_nav2_world_waypoint.launch.py \
@@ -60,11 +80,10 @@ ros2 run scheduler scheduler_node_1stage_RIME \
 
 ## 📊 Performance Analysis
 
-### Comparative Analysis (Table 4)
-
-The following table summarizes the performance of the proposed Joint Optimization approach compared to standard heuristic baselines, based on the experimental results.
-
 ### Table 6. Compact Summary
+
+Experimental setup: 4 robots, 50 tasks, and 2 chargers were used in this experiment.  
+The 50 tasks consisted of 20 one-way tasks, 15 round-trip tasks, and 15 via-point tasks.
 
 | Policy | Total Travel (s) | Total Charge (s) | Total Wait (s) | Total Makespan (s) |
 |---|---:|---:|---:|---:|
