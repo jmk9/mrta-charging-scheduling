@@ -1,10 +1,11 @@
 # An integrated framework for joint optimization of task allocation and charging scheduling in multi-robot systems
 
+[![Project](https://img.shields.io/badge/Project-Notion-black?logo=notion)](https://www.notion.so/An-integrated-framework-for-joint-optimization-of-task-allocation-and-charging-scheduling-in-multi-r-329760238646807f8c5bdc779e1b2963?source=copy_link)
+[![Docker](https://img.shields.io/badge/Docker-jmk9%2Fmrta--charging--scheduler-blue?logo=docker)](https://hub.docker.com/r/jmk9/mrta-charging-scheduler)
+[![Demo](https://img.shields.io/badge/Demo-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=TR0gkmdvi8w&feature=youtu.be)
 [![ROS 2](https://img.shields.io/badge/ROS-2_Humble-blue)](https://docs.ros.org/en/humble/index.html)
 [![Gazebo](https://img.shields.io/badge/Simulation-Gazebo-orange)](https://gazebosim.org/)
-[![Docker](https://img.shields.io/badge/Docker-jmk9%2Fmrta--charging--scheduler-blue?logo=docker)](https://hub.docker.com/r/jmk9/mrta-charging-scheduler)
-[![Project](https://img.shields.io/badge/Project-Notion-black?logo=notion)](https://www.notion.so/An-integrated-framework-for-joint-optimization-of-task-allocation-and-charging-scheduling-in-multi-r-329760238646807f8c5bdc779e1b2963?source=copy_link)
-[![Demo](https://img.shields.io/badge/Demo-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=TR0gkmdvi8w&feature=youtu.be)
+
 
 This repository contains the implementation of an integrated framework for **Multi-Robot Task Allocation (MRTA)** and **Charging Scheduling**. By jointly optimizing task sequences and charging maneuvers, this framework minimizes makespan and prevents dock contention in shared infrastructure environments.
 
